@@ -10,7 +10,7 @@ from requests.adapters import HTTPAdapter
 def pull_data():
     BeautifulSoup.attrs = {"data-id": True}
     # Main Site Connection
-    url = "https://myanimelist.net/topanime.php?limit="
+    url = ""
     url_list = []
 
     url_page = 0
